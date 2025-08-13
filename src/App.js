@@ -17,7 +17,7 @@ function App() {
     }
   ]);
   const [isLoading, setIsLoading] = useState(false);
-  const [typingSpeed, setTypingSpeed] = useState(10); // ms per character - hızlandırıldı
+  const [typingSpeed] = useState(10); // ms per character - hızlandırıldı
   
   // Document panel states
   const [showDocPanel, setShowDocPanel] = useState(false);
